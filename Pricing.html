@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Pricing Plans - Cloud Infrastructure Platform</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Page Wrapper -->
+            <div id="page-wrapper">
+
+                <!-- Header -->
+                    <header id="header">
+                        <h1><a href="index.html">Cloud Infrastructure</a></h1>
+                        <nav>
+                            <a href="#menu">Menu</a>
+                        </nav>
+                    </header>
+
+                <!-- Menu -->
+                    <nav id="menu">
+                        <div class="inner">
+                            <h2>Navigation Menu</h2>
+                            <ul class="links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Service.html">Services</a></li>
+                                <li><a href="Pricing.html">Pricing</a></li>
+                                <li><a href="#">Docs</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                            <a href="#" class="close">Close</a>
+                        </div>
+                    </nav>
+
+                <!-- Wrapper -->
+                    <section id="wrapper">
+                        <header>
+                            <div class="inner">
+                                <h2>Pricing & Plans</h2>
+                                <p>Competitive pricing for virtual servers, storage and managed platform services.</p>
+                            </div>
+                        </header>
+
+                        <!-- Content -->
+                            <div class="wrapper">
+                                <div class="inner">
+
+                                    <section>
+                                        <h3 class="major">Service Components</h3>
+                                        <p>Platform supports <b>virtual machine hosting</b>, <strong>object storage</strong>, <i>container orchestration</i> and <em>managed databases</em>. 
+                                        Network traffic charged per GB transferred. Storage includes <sup>99.99%</sup> durability and <sub>multi-zone</sub> replication. 
+                                        All plans include <u>24/7 monitoring</u> and basic support.</p>
+                                        <h4>Usage Examples</h4>
+                                        <blockquote>Deploy 2 vCPU VM with 8GB RAM: $0.04/hour. Store 500GB objects: $11.50/month. Run 1M function invocations: $0.20.</blockquote>
+                                        <h4>Configuration Snippet</h4>
+                                        <pre><code>provider "cloudinfra" {
+  region = "us-west-1"
+  vm_size = "c4.large"
+  storage = "s3-standard"
+  
+  resource "vm_instance" {
+    name = "web-server"
+    cpu  = 2
+    ram  = "8GB"
+  }
+}</code></pre>
+                                    </section>
+
+                                    <section>
+                                        <h3 class="major">Pricing Tiers</h3>
+                                        <div class="row">
+                                            <div class="col-6 col-12-medium">
+                                                <h4>Basic Plan</h4>
+                                                <ul>
+                                                    <li>2 vCPU instances</li>
+                                                    <li>4GB RAM allocation</li>
+                                                    <li>100GB block storage</li>
+                                                </ul>
+                                                <h4>Standard Plan</h4>
+                                                <ul class="alt">
+                                                    <li>8 vCPU instances</li>
+                                                    <li>32GB RAM allocation</li>
+                                                    <li>1TB block storage</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6 col-12-medium">
+                                                <h4>Premium Plan</h4>
+                                                <ol>
+                                                    <li>Unlimited vCPU cores</li>
+                                                    <li>256GB+ RAM allocation</li>
+                                                    <li>10TB+ block storage</li>
+                                                    <li>Enterprise support</li>
+                                                    <li>Dedicated networking</li>
+                                                    <li>Compliance features</li>
+                                                </ol>
+                                                <h4>Platform Links</h4>
+                                                <ul class="icons">
+                                                    <li><a href="#" class="icon brands fa-github"><span class="label">Documentation</span></a></li>
+                                                    <li><a href="#" class="icon brands fa-slack"><span class="label">Community</span></a></li>
+                                                    <li><a href="#" class="icon brands fa-discord"><span class="label">Support</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>Plan Comparison</h4>
+                                        <div class="row">
+                                            <div class="col-6 col-12-medium">
+                                                <ul class="actions">
+                                                    <li><a href="#" class="button primary">Basic $25/mo</a></li>
+                                                    <li><a href="#" class="button">Standard $85/mo</a></li>
+                                                </ul>
+                                                <ul class="actions small">
+                                                    <li><a href="#" class="button primary small">Deploy Basic</a></li>
+                                                    <li><a href="#" class="button small">Deploy Standard</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6 col-12-medium">
+                                                <ul class="actions stacked">
+                                                    <li><a href="#" class="button primary">Premium $250/mo</a></li>
+                                                    <li><a href="#" class="button">Contact Sales</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>Pagination Example</h4>
+                                        <ul class="pagination">
+                                            <li><span class="button small disabled">Previous</span></li>
+                                            <li><a href="#" class="page active">1</a></li>
+                                            <li><a href="#" class="page">2</a></li>
+                                            <li><a href="#" class="page">3</a></li>
+                                            <li><span>&hellip;</span></li>
+                                            <li><a href="#" class="page">10</a></li>
+                                            <li><a href="#" class="button small">Next</a></li>
+                                        </ul>
+                                    </section>
+
+                                    <section>
+                                        <h3 class="major">Pricing Table</h3>
+                                        <h4>Compute Pricing</h4>
+                                        <div class="table-wrapper">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Instance Type</th>
+                                                        <th>Configuration</th>
+                                                        <th>Price/Hour</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Basic VM</td>
+                                                        <td>1 vCPU, 2GB RAM</td>
+                                                        <td>$0.015</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Standard VM</td>
+                                                        <td>2 vCPU, 8GB RAM</td>
+                                                        <td>$0.045</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>High Memory</td>
+                                                        <td>4 vCPU, 16GB RAM</td>
+                                                        <td>$0.095</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Compute Optimized</td>
+                                                        <td>8 vCPU, 32GB RAM</td>
+                                                        <td>$0.185</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Storage Optimized</td>
+                                                        <td>4 vCPU, 64GB RAM</td>
+                                                        <td>$0.245</td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <td colspan="2">Monthly Estimate (730 hours)</td>
+                                                        <td>$99.35</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+
+                                        <h4>Storage Pricing</h4>
+                                        <div class="table-wrapper">
+                                            <table class="alt">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Storage Type</th>
+                                                        <th>Capacity</th>
+                                                        <th>Price/Month</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Block Storage</td>
+                                                        <td>50GB</td>
+                                                        <td>$4.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Object Storage</td>
+                                                        <td>500GB</td>
+                                                        <td>$11.50</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Archive Storage</td>
+                                                        <td>5TB</td>
+                                                        <td>$75.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h3 class="major">Button Examples</h3>
+                                        <ul class="actions">
+                                            <li><a href="#" class="button primary">Deploy Instance</a></li>
+                                            <li><a href="#" class="button">View Console</a></li>
+                                        </ul>
+                                        <ul class="actions">
+                                            <li><a href="#" class="button large">Scale Up</a></li>
+                                            <li><a href="#" class="button small">Scale Down</a></li>
+                                        </ul>
+                                    </section>
+
+                                    <section>
+                                        <h3 class="major">Support Form</h3>
+                                        <form method="post" action="#">
+                                            <div class="row gtr-uniform">
+                                                <div class="col-6 col-12-xsmall">
+                                                    <label for="demo-name">Name</label>
+                                                    <input type="text" name="demo-name" id="demo-name" value="" />
+                                                </div>
+                                                <div class="col-6 col-12-xsmall">
+                                                    <label for="demo-email">Email</label>
+                                                    <input type="email" name="demo-email" id="demo-email" value="" />
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="demo-category">Service Type</label>
+                                                    <select name="demo-category" id="demo-category">
+                                                        <option value="">-</option>
+                                                        <option value="compute">Virtual Servers</option>
+                                                        <option value="storage">Object Storage</option>
+                                                        <option value="network">Networking</option>
+                                                        <option value="database">Managed DB</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-4 col-12-small">
+                                                    <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                                                    <label for="demo-priority-low">Low Priority</label>
+                                                </div>
+                                                <div class="col-4 col-12-small">
+                                                    <input type="radio" id="demo-priority-normal" name="demo-priority">
+                                                    <label for="demo-priority-normal">Normal Priority</label>
+                                                </div>
+                                                <div class="col-4 col-12-small">
+                                                    <input type="radio" id="demo-priority-high" name="demo-priority">
+                                                    <label for="demo-priority-high">High Priority</label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="demo-message">Issue Description</label>
+                                                    <textarea name="demo-message" id="demo-message" rows="6"></textarea>
+                                                </div>
+                                                <div class="col-12">
+                                                    <ul class="actions">
+                                                        <li><input type="submit" value="Submit Ticket" class="primary" /></li>
+                                                        <li><input type="reset" value="Reset Form" /></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </section>
+
+                                </div>
+                            </div>
+
+                    </section>
+
+                <!-- Footer -->
+                    <section id="footer">
+                        <div class="inner">
+                            <h2 class="major">Platform Access</h2>
+                            <p>Cloud infrastructure hosting demonstration site. Contact for technical specifications and deployment information.</p>
+                            <form method="post" action="#">
+                                <div class="fields">
+                                    <div class="field">
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" id="name" />
+                                    </div>
+                                    <div class="field">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" />
+                                    </div>
+                                    <div class="field">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <ul class="actions">
+                                    <li><input type="submit" value="Send Message" /></li>
+                                </ul>
+                            </form>
+                            <ul class="contact">
+                                <li class="icon solid fa-home">
+                                    Infrastructure Services<br />
+                           
+                                </li>
+                                <li class="icon solid fa-phone">+1 123-4567</li>
+                                <li class="icon solid fa-envelope"><a href="mailto:support">support</a></li>
+                            </ul>
+                            <ul class="copyright">
+                                <li>&copy; Cloud Infrastructure Platform</li>
+                                <li>Template by HTML5 UP</li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
